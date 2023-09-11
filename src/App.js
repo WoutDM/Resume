@@ -5,16 +5,9 @@ import Index from './pages/homepage/Index';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter class='w-full'>
       <Navbar/>
-      <Routes>
-        <Route exact path="/" element={<Index/>}/>
-        <Route exact path="/skills" element={null}/>
-        <Route exact path="/projects" element={null}/>
-        <Route exact path="/about me" element={null}/>
-        <Route exact path="/timeline" element={null}/>
-        <Route exact path="/contact" element={null}/>
-      </Routes>
+      <Index></Index>
     </BrowserRouter>
   );
 }
