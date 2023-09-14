@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav class='bg-black text-white w-[100%] flex flex-row px-5'>
       <div class='h-auto min-w-[50px] max-w-[80px]' id='navbar_logo'>
         <HashLink smooth to='/#top' >
-          <img id='start' class='my-5' src={W_logo_wit} alt="W_logo" />
+          <img id='start' class='my-5 drop-shadow-glow' src={W_logo_wit} alt="W_logo" />
         </HashLink>
         {/* <Link to='/'>
           <img class='w-24' src={W_logo_wit} alt="W_logo" />

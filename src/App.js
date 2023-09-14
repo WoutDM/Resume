@@ -5,7 +5,7 @@ import Index from './pages/homepage/Index';
 
 function App() {
   return (
-    <BrowserRouter class='w-full'>
+    <BrowserRouter>
       <Navbar/>
       <Index></Index>
     </BrowserRouter>
