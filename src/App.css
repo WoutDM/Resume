@@ -40,3 +40,11 @@ html, body {
     transform: rotate(360deg);
   }
 }
+
+/* background image */
+/* #index {
+  background-image: url("./images/W_background_version.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+} */

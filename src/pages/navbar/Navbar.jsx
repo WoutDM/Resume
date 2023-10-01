@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import W_logo_wit from '../../images/W_logo_wit.png';
 
