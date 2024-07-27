@@ -1,6 +1,6 @@
-export default function Skills() {
+export default function SkillsCarousel() {
 
     return (
-        <p>test</p>
+        <p>SkillsCarousel</p>
     );
 }
