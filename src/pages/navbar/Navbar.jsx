@@ -4,21 +4,21 @@ import W_logo_wit from '../../images/W_logo_wit.png';
 export default function Navbar() {
 
   return (
-    <nav class='bg-black text-white w-[100%] flex flex-row px-5'>
-      <div class='h-auto min-w-[50px] max-w-[80px]' id='navbar_logo'>
+    <nav className='bg-black text-white w-[100%] flex flex-row px-5'>
+      <div className='h-auto min-w-[50px] max-w-[80px]' id='navbar_logo'>
         <HashLink smooth to='/#top' >
-          <img id='start' class='my-5 drop-shadow-glow' src={W_logo_wit} alt="W_logo" />
+          <img id='start' className='my-5 drop-shadow-glow' src={W_logo_wit} alt="W_logo" />
         </HashLink>
         {/* <Link to='/'>
           <img class='w-24' src={W_logo_wit} alt="W_logo" />
         </Link> */}
       </div>
-      <div id='navbar_link_container' class='flex flex-row ml-5 items-center text-xs sm:text-base'>    
-        <HashLink class='px-2 sm:px-5 font-semibold' smooth to='/#skills' > skills </HashLink>
-        <HashLink class='px-2 sm:px-5 font-semibold' smooth to='/#projects' > projects </HashLink>
-        <HashLink class='px-2 sm:px-5 font-semibold' smooth to='/#aboutme' > about </HashLink>
-        <HashLink class='px-2 sm:px-5 font-semibold' smooth to='/#timeline' > timeline </HashLink>
-        <HashLink class='px-2 sm:px-5 font-semibold' smooth to='/#contact' > contact </HashLink>
+      <div id='navbar_link_container' className='flex flex-row ml-5 items-center text-xs sm:text-base'>
+        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#skills' > skills </HashLink>
+        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#projects' > projects </HashLink>
+        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#aboutme' > about </HashLink>
+        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#timeline' > timeline </HashLink>
+        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#contact' > contact </HashLink>
         {/* <Link to='/projects'>
           <p class='px-5 font-semibold'>projects</p>
         </Link>

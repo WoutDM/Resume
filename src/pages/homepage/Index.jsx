@@ -4,7 +4,7 @@ import Skills from "./sections/Skills";
 export default function Index() {
 
   return (
-    <div id="index" class='bg-black px-[20%] text-white font-sans'>
+    <div id="index" className='bg-black px-[20%] text-white font-sans'>
       <Intro/>
       <Skills/>
       <p className="mb-[300px]" id="skills">test</p>
