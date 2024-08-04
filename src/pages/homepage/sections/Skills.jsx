@@ -1,5 +1,5 @@
 import SkillRatings from "./SkillRatings";
-import SkillsCarousel from "./SkillsCarousel";
+import SkillsCarousel from "./SkillsCarousel/SkillsCarousel";
 import {useState} from "react";
 import dropDown from '../../../images/drop-down-30.png';
 import dropUp from '../../../images/drop-up-30.png';
