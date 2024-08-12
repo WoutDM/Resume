@@ -1,8 +1,8 @@
-import SkillRatings from "./SkillRatings";
+import SkillRatings from "./SkillRatings/SkillRatings";
 import SkillsCarousel from "./SkillsCarousel/SkillsCarousel";
 import {useState} from "react";
-import dropDown from '../../../images/drop-down-30.png';
-import dropUp from '../../../images/drop-up-30.png';
+import dropDown from '../../../../images/drop-down-30.png'
+import dropUp from '../../../../images/drop-up-30.png';
 
 export default function Skills() {
 

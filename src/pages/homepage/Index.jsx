@@ -1,6 +1,6 @@
 import Intro from "./sections/Intro";
-import Skills from "./sections/Skills";
-import Timeline from "./sections/Timeline";
+import Skills from "./sections/Skills/Skills";
+import Timeline from "./sections/Timeline/Timeline";
 
 export default function Index() {
 
