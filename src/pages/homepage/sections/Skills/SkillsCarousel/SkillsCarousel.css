@@ -3,7 +3,7 @@
         transform: translateX(0);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
@@ -27,10 +27,10 @@
     background: linear-gradient(to right, rgba(255, 255, 255, 0), black);
 }
 
-img {
+/* img {
     filter: invert(99%) sepia(22%) saturate(2%) hue-rotate(138deg) brightness(113%) contrast(100%);
 }
 
 img:hover {
     filter: invert(78%) sepia(38%) saturate(856%) hue-rotate(19deg) brightness(106%) contrast(107%);
-}
+} */
