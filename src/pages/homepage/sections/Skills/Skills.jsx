@@ -11,7 +11,7 @@ export default function Skills() {
 
     return (
         <div className='flex flex-col items-center'>
-            <div className="flex items-center justify-center bg-gray-700 bg-gray-900 rounded-full h-10 w-10 mb-14 animate-bounce select-none">
+            <div className="flex items-center justify-center bg-gray-900 rounded-full h-10 w-10 mb-32 animate-bounce select-none">
                 <img className='drop-shadow-glow h-6' src={arrowDown} alt="arrow-down"/>
             </div>
             <h1 className="m-auto font-bold text-3xl">Skills<span className="text-[#D6F919]">.</span></h1>

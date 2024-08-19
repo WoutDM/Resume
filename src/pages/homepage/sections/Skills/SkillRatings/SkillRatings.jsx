@@ -3,7 +3,7 @@ import SkillRating from "./Components/SkillRating";
 export default function SkillRatings() {
 
     return (
-        <div id="skills" className='flex flex-col mt-1 w-[800px]'>
+        <div id="skills" className='flex flex-col mt-1 w-[800px] mb-10'>
             <div className="flex flex-row justify-between">
                 <div className="w-[47%]">
                     <h2 className="font-extrabold">Coding</h2>
