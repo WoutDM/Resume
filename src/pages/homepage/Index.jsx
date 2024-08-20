@@ -1,4 +1,5 @@
-import Intro from "./sections/Intro";
+import About from "./sections/About/About";
+import Intro from "./sections/Intro/Intro";
 import Skills from "./sections/Skills/Skills";
 import Timeline from "./sections/Timeline/Timeline";
 
@@ -9,7 +10,7 @@ export default function Index() {
       <Intro/>
       <Skills/>
       <Timeline/>
-      {/*<p className="mb-[300px]" id="projects">test2</p>*/}
+      <About/>
       {/*<p className="mb-[500px] bg-black" id="aboutme">test3</p>*/}
     </div> 
   );

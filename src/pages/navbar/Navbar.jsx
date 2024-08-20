@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className='bg-black text-white w-[100%] flex flex-row px-5'>
       <div className='h-auto min-w-[50px] max-w-[80px]' id='navbar_logo'>
-        <HashLink smooth to='/#top' >
+        <HashLink smooth to='/#intro' >
           <img id='start' className='my-5 drop-shadow-glow' src={W_logo_wit} alt="W_logo" />
         </HashLink>
         {/* <Link to='/'>
@@ -19,18 +19,6 @@ export default function Navbar() {
         <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#aboutme' > about </HashLink>
         <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#timeline' > timeline </HashLink>
         <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#contact' > contact </HashLink>
-        {/* <Link to='/projects'>
-          <p class='px-5 font-semibold'>projects</p>
-        </Link>
-        <Link to=''>
-          <p class='px-5 font-semibold'>about me</p>
-        </Link>
-        <Link to=''>
-          <p class='px-5 font-semibold'>timeline</p>
-        </Link>
-        <Link to=''>
-          <p class='px-5 font-semibold'>contact</p>
-        </Link> */}
       </div>
     </nav>
   );
