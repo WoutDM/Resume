@@ -1,9 +1,17 @@
-export default function Project({ name, description, logo }) {
+import inProgressIcon from '../../../../../images/in-progress.png';
+
+export default function Project({ name, description, logo, inProgress }) {
   return (
-    <div className="flex justify-center items-center flex-[0_0_33.33%] mb-6">
-      <div className="flex jusftify-center items-center w-11/12 aspect-square bg-gray-500">
-        <img className='drop-shadow-glow' src={logo} alt="project-logo"/>
-      </div>
+    <div className="flex justify-center items-center flex-[0_0_32%] mx-auto aspect-square mb-6 bg-neutral-900 overflow-hidden relative">
+      <img className="h-5/6 object-cover brightness-90" src={logo} alt="project-logo"/>
+      {
+        inProgress 
+          ?
+          (<img className='drop-shadow-glow h-6 absolute right-2 top-2' src={inProgressIcon} alt="in-progress"/>)
+          :
+          null  
+      }
+      
     </div>
   );
 }
