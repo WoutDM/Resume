@@ -4,7 +4,7 @@ import W_logo_wit from '../../images/W_logo_wit.png';
 export default function Navbar() {
 
   return (
-    <nav className='bg-black text-white w-[100%] flex flex-row px-5'>
+    <nav className='text-white w-[100%] flex flex-row px-5'>
       <div className='h-auto min-w-[50px] max-w-[80px]' id='navbar_logo'>
         <HashLink smooth to='/#intro' >
           <img id='start' className='my-5 drop-shadow-glow' src={W_logo_wit} alt="W_logo" />

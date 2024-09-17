@@ -7,7 +7,7 @@ import Timeline from "./sections/Timeline/Timeline";
 export default function Index() {
 
   return (
-    <div id="index" className='bg-black text-white font-sans'>
+    <div id="index" className='text-white font-sans z-10'>
       <Intro/>
       <Skills/>
       <Timeline/>
