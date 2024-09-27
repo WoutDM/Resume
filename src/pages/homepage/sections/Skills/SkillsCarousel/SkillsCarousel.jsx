@@ -37,7 +37,7 @@ export default function SkillsCarousel() {
                 </div>
 
                 <div className="logos-slide inline-flex w-max animate-[slide_50s_linear_infinite]">
-                <img className="h-12 mx-10" src={html} alt="html_logo"/>
+                    <img className="h-12 mx-10" src={html} alt="html_logo"/>
                     <img className="h-12 mx-10" src={css} alt="css_logo"/>
                     <img className="h-12 mx-10" src={tailwind} alt="tailwind_logo"/>
                     <img className="h-12 mx-10" src={react} alt="react_logo"/>

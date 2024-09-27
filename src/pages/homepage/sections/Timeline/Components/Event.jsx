@@ -8,7 +8,7 @@ export default function Event({event}) {
                 <div className="rounded-full border-2 border-[#D6F919] h-8 w-8"/>
                 {
                     event.fromDate === 'September 2020' ?
-                        <div className="w-0.5 h-[80%] bg-gradient-to-b from-[#D6F919] to-transparant"/>
+                        <div className="w-0.5 h-[80%] bg-gradient-to-b from-[#D6F919]"/>
                     :
                         <div className="w-0.5 h-[90%] bg-[#D6F919]"/>
                 }
