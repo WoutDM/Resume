@@ -29,14 +29,14 @@ body {
 #blob {
   z-index: 0;
   background-color: white;
-  height: 34vmax;
+  height: 28vmax;
   aspect-ratio: 1;
   position: fixed; 
   left: 50%;
   top: 50%;
   translate: -50% -50%;
   border-radius: 50%;
-  background: linear-gradient(to right, aquamarine, mediumpurple);
+  background: linear-gradient(to right, rgb(16, 58, 59), rgb(46, 75, 97));
   animation: rotate 20s infinite;
   opacity: 0.8;
 }
