@@ -8,11 +8,11 @@ export default function Index() {
 
   return (
     <div id="index" className='text-white font-sans z-10'>
-      <Intro/>
-      <Skills/>
-      <Timeline/>
-      <About/>
-      <Projects/>
-    </div> 
+        <Intro/>
+        <Skills/>
+        <Timeline/>
+        <Projects/>
+        <About/>
+    </div>
   );
 }

@@ -1,8 +1,8 @@
 export default function About() {
 
   return (
-    <div className="flex flex-col items-center mt-40">
-      <h1 id="about" className="m-auto font-bold text-3xl">About<span className="text-[#D6F919]">.</span></h1>
+    <div id="about" className="flex flex-col items-center mt-40">
+      <h1 className="m-auto font-bold text-3xl select-none">About<span className="text-[#D6F919]">.</span></h1>
       <div className="flex justify-center items-center w-7/12 mt-8">
         <div className="bg-gray-700 w-60 aspect-square rounded-full inline-block">
           {/* image */}

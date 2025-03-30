@@ -1,17 +1,33 @@
 import inProgressIcon from '../../../../../images/in-progress.png';
+import {useState} from "react";
 
 export default function Project({ name, description, logo, inProgress }) {
-  return (
-    <div className="flex justify-center items-center flex-[0_0_32%] mx-auto aspect-square mb-3 bg-neutral-900 overflow-hidden relative">
-      <img className="h-5/6 object-cover brightness-90" src={logo} alt="project-logo"/>
-      {
-        inProgress 
-          ?
-          (<img className='drop-shadow-glow h-6 absolute right-2 top-2' src={inProgressIcon} alt="in-progress"/>)
-          :
-          null  
-      }
-      
-    </div>
-  );
+
+    const [hover, setHover] = useState(false);
+
+    return (
+        <div className="relative flex justify-center flex-col items-center flex-[0_0_32%] mx-auto aspect-square mb-3 bg-neutral-900 rounded-md">
+            {
+                inProgress
+                ??
+                (
+                    <div className="absolute right-1 top-1 flex justify-center" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+                        <div className="relative">
+                            <img className='drop-shadow-glow h-6 m-2' src={inProgressIcon} alt="in-progress" draggable="false"/>
+                            {hover && (
+                                <span
+                                    className="absolute left-[-50%] bottom-10 w-20 flex justify-center text-[#D6F919] text-xs px-2 py-1 rounded shadow-lg">
+                                        In progress
+                                </span>
+                            )}
+                        </div>
+                    </div>
+                )
+            }
+            <div className="flex justify-center items-center w-2/4 h-2/4 overflow-hidden">
+                <img className="scale-[3] brightness-90 object-contain" src={logo} alt="project-logo" draggable="false"/>
+            </div>
+            <h1 className="font-semibold text-2xl">{name}</h1>
+        </div>
+    );
 }

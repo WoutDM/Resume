@@ -28,7 +28,7 @@ export default function SkillRatings() {
                         <SkillRating skill={'Dutch'} rating={5}></SkillRating>
                         <SkillRating skill={'English'} rating={4}></SkillRating>
                         <SkillRating skill={'French'} rating={3}></SkillRating>
-                        <SkillRating skill={'Germany'} rating={2}></SkillRating>
+                        <SkillRating skill={'German'} rating={2}></SkillRating>
                         <SkillRating skill={'Spanish'} rating={1}></SkillRating>
                         <SkillRating skill={'Italian'} rating={'Duolingo (2 years ago (oops))'}></SkillRating>
                     </div>
