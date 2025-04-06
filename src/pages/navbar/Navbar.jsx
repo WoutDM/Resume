@@ -12,11 +12,11 @@ export default function Navbar() {
         </Link> */}
       </div>
       <div id='navbar_link_container' className='flex flex-row ml-5 items-center text-xs sm:text-base'>
-        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#skills' > skills </HashLink>
-        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#projects' > projects </HashLink>
-        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#about' > about </HashLink>
-        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#timeline' > timeline </HashLink>
-        <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#contact' > contact </HashLink>
+          <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#skills' > skills </HashLink>
+          <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#timeline' > timeline </HashLink>
+          <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#projects' > projects </HashLink>
+          <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#about' > about </HashLink>
+          {/*<HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#contact' > contact </HashLink> //TODO*/}
       </div>
     </nav>
   );
