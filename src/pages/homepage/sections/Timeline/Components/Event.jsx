@@ -5,7 +5,7 @@ export default function Event({event}) {
                 {event.fromDate} - <br/> {event.toDate != null ? event.toDate : 'CURRENT'}
             </div>
             <div className="flex flex-col items-center w-12 mr-5">
-                <div className="rounded-full border-2 border-[#D6F919] h-8 w-8"/>
+                <div className="rounded-full border-2 border-[#D6F919] bg-[#D6F919] h-6 w-6"/>
                 {
                     event.fromDate === 'September 2020' ?
                         <div className="w-0.5 h-[80%] bg-gradient-to-b from-[#D6F919]"/>

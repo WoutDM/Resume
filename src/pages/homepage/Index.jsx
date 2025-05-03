@@ -3,6 +3,7 @@ import Intro from "./sections/Intro/Intro";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 import Timeline from "./sections/Timeline/Timeline";
+import Contact from "./sections/Contact/Contact";
 
 export default function Index() {
 
@@ -13,6 +14,7 @@ export default function Index() {
         <Timeline/>
         <Projects/>
         <About/>
+        <Contact/>
     </div>
   );
 }

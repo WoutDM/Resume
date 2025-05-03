@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #222629;
 }
 
 #gradientBackground {
@@ -10,7 +10,7 @@ body {
 #pageContent {
   position: relative;
   z-index: 2;
-  padding-bottom: 250px;
+  /*padding-bottom: 250px;*/
 }
 
 @keyframes rotate {

@@ -1,16 +1,24 @@
 import inProgressIcon from '../../../../../images/in-progress.png';
+import linkIcon from '../../../../../images/link-icon.png';
 import {useState} from "react";
-import projectsData from "../ProjectsData";
 
 export default function Project({ name, logo, inProgress, link }) {
 
     const [hover, setHover] = useState(false);
 
-    console.log(inProgress);
-
     return (
         <a href={link} target="_blank" rel="noreferrer"
            className="relative flex justify-center flex-col items-center flex-[0_0_32%] mx-auto aspect-square mb-3 bg-neutral-900 rounded-md">
+            {
+                link
+                &&
+                (
+                    <div className="absolute left-1 top-1 flex justify-center">
+                            <img className='h-8 m-2' src={linkIcon} alt="website-link"
+                                 draggable="false"/>
+                    </div>
+                )
+            }
             {
                 inProgress
                 &&
@@ -18,7 +26,7 @@ export default function Project({ name, logo, inProgress, link }) {
                     <div className="absolute right-1 top-1 flex justify-center" onMouseEnter={() => setHover(true)}
                          onMouseLeave={() => setHover(false)}>
                         <div className="relative">
-                            <img className='drop-shadow-glow h-6 m-2' src={inProgressIcon} alt="in-progress"
+                            <img className='h-6 m-2' src={inProgressIcon} alt="in-progress"
                                  draggable="false"/>
                             {hover && (
                                 <span
