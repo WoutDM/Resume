@@ -6,7 +6,7 @@ export default function Intro() {
       <div className='p-[140px] m-10 bg-gray-400 rounded-full'>pic</div>
       <div>
         <h1 className='font-bold text-[370%] leading-none'>I am Wout</h1>
-        <h1 className='font-bold text-[370%] text-[#D6F919] leading-none drop-shadow-glow'>A Full-stack Web Developer</h1>
+        <h1 className='font-bold text-[370%] text-[#00ADB5] leading-none drop-shadow-glow'>A Full-stack Web Developer</h1>
         <p className='pt-5'>My main areas of expertise include Javascript, HTML, CSS, REACT, C#, Java and Python.</p>
       </div>
     </div>

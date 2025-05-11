@@ -8,7 +8,7 @@ export default function Project({ name, logo, inProgress, link }) {
 
     return (
         <a href={link} target="_blank" rel="noreferrer"
-           className="relative flex justify-center flex-col items-center flex-[0_0_32%] mx-auto aspect-square mb-3 bg-neutral-900 rounded-md">
+           className="relative flex justify-center flex-col items-center flex-[0_0_32%] mx-auto aspect-square mb-3 bg-[#393E46] rounded-md">
             {
                 link
                 &&
@@ -30,7 +30,7 @@ export default function Project({ name, logo, inProgress, link }) {
                                  draggable="false"/>
                             {hover && (
                                 <span
-                                    className="absolute left-[-50%] bottom-10 w-20 flex justify-center text-[#D6F919] text-xs px-2 py-1 rounded shadow-lg">
+                                    className="absolute left-[-50%] bottom-10 w-20 flex justify-center text-[#00ADB5] text-xs px-2 py-1 rounded shadow-lg">
                                         In progress
                                 </span>
                             )}

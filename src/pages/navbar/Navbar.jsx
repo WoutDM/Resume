@@ -21,7 +21,7 @@ export default function Navbar() {
                 <HashLink className='px-2 sm:px-5 font-semibold' smooth to='/#contact'> contact </HashLink>
             </div>
         </div>
-        <div className="flex items-center space-x-3 h-10 text-sm border rounded-lg" style={{borderColor: '#D6F919'}}>
+        <div className="flex items-center space-x-3 h-10 text-sm border rounded-lg" style={{borderColor: '#00ADB5'}}>
             <a href="https://www.linkedin.com/in/wout-d-a86615224/" target="_blank" rel="noreferrer"
                className="flex items-center">
                 <img className='h-6 m-2 mr-0' src={linkedInIcon} alt="email"
