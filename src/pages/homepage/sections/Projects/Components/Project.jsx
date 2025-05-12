@@ -30,7 +30,7 @@ export default function Project({ name, logo, inProgress, link }) {
                                  draggable="false"/>
                             {hover && (
                                 <span
-                                    className="absolute left-[-50%] bottom-10 w-20 flex justify-center text-[#00ADB5] text-xs px-2 py-1 rounded shadow-lg">
+                                    className="absolute left-[-50%] bottom-10 w-20 flex justify-center text-xs px-2 py-1 rounded shadow-lg">
                                         In progress
                                 </span>
                             )}

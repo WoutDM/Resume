@@ -10,7 +10,7 @@ body {
 #pageContent {
   position: relative;
   z-index: 2;
-  /*padding-bottom: 250px;*/
+  font-family: 'sf-pro', sans-serif;
 }
 
 @keyframes rotate {
@@ -97,3 +97,17 @@ html, body {
   background-attachment: fixed;
   background-position: center;
 } */
+
+@font-face {
+  font-family: 'sf-pro';
+  src: url('../public/fonts/SFPRODISPLAYREGULAR.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sf-pro';
+  src: url('../public/fonts/SFPRODISPLAYBOLD.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}

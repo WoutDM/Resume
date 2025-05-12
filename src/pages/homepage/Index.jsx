@@ -8,7 +8,7 @@ import Contact from "./sections/Contact/Contact";
 export default function Index() {
 
   return (
-    <div id="index" className='text-white font-sans z-10'>
+    <div id="index" className='text-white z-10 font'>
         <Intro/>
         <Skills/>
         <Timeline/>
