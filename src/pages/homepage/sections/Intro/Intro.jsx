@@ -1,7 +1,26 @@
+import {useEffect, useState} from "react";
+
 export default function Intro() {
 
+    const [windowHeight, setWindowHeight] = useState(0);
+
+    useEffect(() => {
+
+        if (typeof window !== "undefined") {
+            setWindowHeight(window.innerHeight);
+
+            const handleResize = () => {
+                setWindowHeight(window.innerHeight);
+            };
+
+            window.addEventListener('resize', handleResize);
+
+            return () => window.removeEventListener('resize', handleResize);
+        }
+    }, []);
+
   return (
-    <div id="intro" className='flex flex-row justify-center items-center h-[650px] mb-32 select-none'>
+    <div id="intro" className='flex flex-row justify-center items-center mb-32 select-none h-[650px]' style={{ height: `${windowHeight-280}px` }}>
       {/* <img src="" alt="" /> */}
       <div className='p-[140px] m-10 bg-gray-400 rounded-full'>pic</div>
       <div>
