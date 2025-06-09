@@ -4,17 +4,47 @@ import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
 import Timeline from "./sections/Timeline/Timeline";
 import Contact from "./sections/Contact/Contact";
+import {useEffect} from "react";
 
 export default function Index() {
 
-  return (
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                // entry.target.classList.toggle('appear', entry.isIntersecting);
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('appear');
+                }
+            });
+        });
+
+        const hiddenElements = document.querySelectorAll('.disappear');
+        hiddenElements.forEach(el => observer.observe(el));
+
+        // Optional cleanup
+        return () => {
+            hiddenElements.forEach(el => observer.unobserve(el));
+        };
+    }, []);
+
+    return (
     <div id="index" className='text-white z-10 font'>
         <Intro/>
-        <Skills/>
-        <Timeline/>
-        <Projects/>
-        <About/>
-        <Contact/>
+        <div className='disappear'>
+            <Skills/>
+        </div>
+        <div className='disappear'>
+            <Timeline/>
+        </div>
+        <div className='disappear'>
+            <Projects/>
+        </div>
+        <div className='disappear'>
+            <About/>
+        </div>
+        <div className='disappear'>
+            <Contact/>
+        </div>
     </div>
-  );
+    );
 }

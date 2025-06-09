@@ -6,7 +6,7 @@ export default function SkillRatings() {
         <div id="skills" className='flex flex-col mt-1 w-[800px] mb-10'>
             <div className="flex flex-row justify-between">
                 <div className="w-[47%]">
-                    <h2 className="font-extrabold border-b-2 mb-2 pb-2 border-[#00ADB5]">Coding</h2>
+                    <h2 className="font-extrabold border-b-2 mb-2 pb-2 border-[#24CBFF]">Coding</h2>
                     <SkillRating skill={'HTML'} rating={5}></SkillRating>
                     <SkillRating skill={'CSS'} rating={5}></SkillRating>
                     <SkillRating skill={'Tailwind'} rating={5}></SkillRating>
@@ -24,7 +24,7 @@ export default function SkillRatings() {
                 <div className="w-[47%]">
                     {/* languages and others */}
                     <div>
-                        <h2 className="font-extrabold  border-b-2 mb-2 pb-2 border-[#00ADB5]">Languages</h2>
+                        <h2 className="font-extrabold  border-b-2 mb-2 pb-2 border-[#24CBFF]">Languages</h2>
                         <SkillRating skill={'Dutch'} rating={5}></SkillRating>
                         <SkillRating skill={'English'} rating={4}></SkillRating>
                         <SkillRating skill={'French'} rating={3}></SkillRating>
@@ -33,7 +33,7 @@ export default function SkillRatings() {
                         <SkillRating skill={'Italian'} rating={'Duolingo (2 years ago (oops))'}></SkillRating>
                     </div>
                     <div>
-                        <h2 className="font-extrabold mt-6  border-b-2 mb-2 pb-2 border-[#00ADB5]">Others</h2>
+                        <h2 className="font-extrabold mt-6  border-b-2 mb-2 pb-2 border-[#24CBFF]">Others</h2>
                         <SkillRating skill={'Photoshop'} rating={3}></SkillRating>
                         <SkillRating skill={'Premiere Pro'} rating={3}></SkillRating>
                         <SkillRating skill={'After Effects'} rating={3}></SkillRating>

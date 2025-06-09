@@ -5,12 +5,12 @@ export default function Event({event}) {
                 {event.fromDate} - <br/> {event.toDate != null ? event.toDate : 'CURRENT'}
             </div>
             <div className="flex flex-col items-center w-12 mr-5">
-                <div className="rounded-full border-2 border-[#00ADB5] bg-[#00ADB5] h-6 w-6"/>
+                <div className="rounded-full border-2 border-[#24CBFF] bg-[#24CBFF] h-6 w-6"/>
                 {
                     event.fromDate === 'September 2020' ?
-                        <div className="w-0.5 h-[80%] bg-gradient-to-b from-[#00ADB5]"/>
+                        <div className="w-0.5 h-[80%] bg-gradient-to-b from-[#24CBFF]"/>
                     :
-                        <div className="w-0.5 h-[90%] bg-[#00ADB5]"/>
+                        <div className="w-0.5 h-[90%] bg-[#24CBFF]"/>
                 }
             </div>
             <div className="w-9/12">

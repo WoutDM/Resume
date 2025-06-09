@@ -1,6 +1,10 @@
 body {
-  background-color: #222831;
+  background-color: rgb(24, 23, 23);
 }
+/*black*/
+/*#222831*/
+/*#2e3129*/
+/*rgb(24, 23, 23)*/
 
 @media (pointer: fine) {
   #gradientBackground {
@@ -100,16 +104,53 @@ html, body {
   background-position: center;
 } */
 
+/*Contact field fill in animation*/
+.contactField {
+  background-image: linear-gradient(#24CBFF, #24CBFF);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 0%;
+  transition: background-size .5s, color .5s;
+}
+.contactField:hover {
+  color: black;
+  background-size: 100% 100%;
+}
+
+/*Transitions while scrolling down*/
+/*.disappear {*/
+/*  opacity: 0;*/
+/*  transition: all 2s;*/
+/*  filter: blur(5px);*/
+/*  transform: translateX(-100%);*/
+/*}*/
+
+@media (prefers-reduced-motion: no-preference) {
+  .disappear {
+    opacity: 0;
+    transition: all 0.7s ease-out;
+    filter: blur(5px);
+    /*transform: translateX(-100%);*/
+    transform: translateY(50%) scaleY(1.5);
+  }
+}
+
+.appear {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0) scaleY(1);
+}
+
 @font-face {
   font-family: 'sf-pro';
-  src: url('../public/fonts/SFPRODISPLAYREGULAR.otf') format('opentype');
-  font-weight: normal;
+  src: url('../public/fonts/HelveticaNeueLTStd-Lt.otf') format('opentype');
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'sf-pro';
-  src: url('../public/fonts/SFPRODISPLAYBOLD.otf') format('opentype');
-  font-weight: bold;
+  src: url('../public/fonts/HelveticaNeueLTStd-Roman.otf') format('opentype');
+  font-weight: 700;
   font-style: normal;
 }

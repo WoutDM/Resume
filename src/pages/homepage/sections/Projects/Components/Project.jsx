@@ -8,7 +8,7 @@ export default function Project({ name, logo, inProgress, link }) {
 
     return (
         <a href={link} target="_blank" rel="noreferrer"
-           className="relative flex justify-center flex-col items-center flex-[0_0_32%] mx-auto aspect-square mb-3 bg-[#393E46] rounded-md">
+           className="relative flex justify-center flex-col items-center flex-[0_0_32%] mx-auto aspect-square mb-3 bg-[#222831] rounded-md">
             {
                 link
                 &&

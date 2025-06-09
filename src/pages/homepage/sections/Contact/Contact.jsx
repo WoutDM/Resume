@@ -14,7 +14,7 @@ export default function Contact() {
                   {/*<span className="text-[#D6F919]">.</span>*/}
               </h1>
           </div>
-          <div className="flex items-center space-x-6 border-2 border-[#00ADB5] rounded-lg p-2 px-3">
+          <div className="flex items-center space-x-6 border-2 contactField border-[#24CBFF] rounded-lg p-2 px-3">
               <a href="https://www.linkedin.com/in/wout-d-a86615224/" target="_blank" rel="noreferrer"
                  className="flex items-center">
                   <img className='drop-shadow-glow h-7 mr-2' src={linkedInIcon} alt="email"
