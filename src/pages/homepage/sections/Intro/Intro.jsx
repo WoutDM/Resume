@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import arrowDown from "../../../../images/arrow-down.png";
+import portretPic from "../../../../images/portret-picture.jpg";
 
 export default function Intro() {
 
@@ -24,7 +25,9 @@ export default function Intro() {
       <div className='flex flex-col items-center'>
           <div id="intro" className='flex flex-row justify-center items-center mb-32 select-none h-[650px]' style={{ height: `${windowHeight-280}px` }}>
               {/* <img src="" alt="" /> */}
-              <div className='p-[140px] m-10 bg-gray-400 rounded-full'>pic</div>
+              <div className='w-1/5 aspect-square m-10 rounded-[16px] overflow-hidden shadow-xl shadow-[#101010]'>
+                  <img className='h-full w-[2490%] object-cover object-[60%_75%]' src={portretPic} alt="portretPicture" />
+              </div>
               <div>
                   <h1 className='font-bold text-7xl xxl:text-[620%] leading-none'>I am Wout</h1>
                   <h1 className='font-bold text-7xl xxl:text-[620%] text-[#24CBFF] leading-none drop-shadow-glow'>A Full-stack Web Developer</h1>
