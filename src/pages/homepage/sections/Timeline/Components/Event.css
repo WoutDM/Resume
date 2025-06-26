@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px) {
+    #container {
+        width: 100%;
+        padding-inline: 5rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #period, #description {
+        font-size: 13px;
+    }
+
+    #period {
+        width: 60px;
+    }
+
+    #title {
+        font-size: 14px;
+    }
+
+    #periodTimeline {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #container {
+        padding-inline: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #container {
+        justify-content: center;
+        padding-inline: 1rem;
+    }
+
+    #periodSmall {
+        margin-top: 3px;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 13px;
+    }
+
+    #period {
+        display: none;
+    }
+}

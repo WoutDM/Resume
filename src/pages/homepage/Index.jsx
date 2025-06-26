@@ -37,14 +37,15 @@ export default function Index() {
             <Timeline/>
         </div>
         <div className='disappear'>
-            <Projects/>
+            <About/>
         </div>
         <div className='disappear'>
-            <About/>
+            <Projects/>
         </div>
         <div className='disappear'>
             <Contact/>
         </div>
+        <p className='mt-28 pb-5 text-center'>Made with ❤ by Wout</p>
     </div>
     );
 }

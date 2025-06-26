@@ -10,7 +10,7 @@ export default function Skills() {
 
     return (
         <div className='flex flex-col items-center'>
-            <h1 id="skills" className="m-auto font-bold text-6xl mb-5 select-none">Skills</h1>
+            <h1 id="skills" className="m-auto font-bold text-6xl mb-5 select-none max-[1235px]:text-4xl">Skills</h1>
             {/* <div className='flex flex-row mb-10 mt-2 hover:cursor-pointer select-none' onClick={() => setCanShowSkillRatings(!canShowSkillRatings)}>
                 <p className='text-center font-bold'>View skill ratings</p>
                 <img id='start' className='drop-shadow-glow h-4 mt-1 ml-2' src={canShowSkillRatings ? dropUp : dropDown} alt="drop-down"/>

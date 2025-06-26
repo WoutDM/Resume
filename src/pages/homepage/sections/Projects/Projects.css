@@ -1,0 +1,45 @@
+@media screen and (max-width: 500px) {
+
+    #linkIcon {
+        height: 1.6rem;
+        margin: 0.3rem;
+    }
+
+    #progressIcon {
+        height: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    #linkIcon {
+        height: 1.3rem;
+        margin: 0.1rem;
+    }
+
+    #progressIcon {
+        height: 0.9rem;
+        margin: 0.3rem;
+    }
+
+    #projectName {
+        font-size: 0.9rem;
+    }
+
+    #progressIconText {
+        left: -100%;
+    }
+}
+
+@media (hover: hover) {
+    .tooltip-visible {
+        display: flex;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .tooltip-visible {
+        display: none;
+    }
+}
