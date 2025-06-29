@@ -14,7 +14,7 @@ export default function SkillRatings() {
                     <SkillRating skill={'Angular'} rating={4}></SkillRating>
                     <SkillRating skill={'Javascript'} rating={4}></SkillRating>
                     <SkillRating skill={'Typescript'} rating={4}></SkillRating>
-                    <SkillRating skill={'C#'} rating={4}></SkillRating>
+                    <SkillRating skill={'C# (.NET)'} rating={4}></SkillRating>
                     <SkillRating skill={'Java'} rating={3}></SkillRating>
                     <SkillRating skill={'Kotlin'} rating={2}></SkillRating>
                     <SkillRating skill={'Python'} rating={3}></SkillRating>
