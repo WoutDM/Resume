@@ -1,5 +1,4 @@
 @media screen and (max-width: 500px) {
-
     #linkIcon {
         height: 1.6rem;
         margin: 0.3rem;
@@ -8,11 +7,9 @@
     #progressIcon {
         height: 1.2rem;
     }
-
 }
 
 @media screen and (max-width: 550px) {
-
     #linkIcon {
         height: 1.3rem;
         margin: 0.1rem;

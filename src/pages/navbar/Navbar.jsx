@@ -9,9 +9,6 @@ export default function Navbar() {
         <div className="flex items-center select-none">
             <div className='h-auto w-[70px] sm:w-[80px] max-[460px]:w-[45px]' id='navbar_logo'>
                 <img className='my-5 drop-shadow-glow' src={W_logo_wit} alt="W_logo" draggable="false"/>
-                {/* <Link to='/'>
-          <img class='w-24' src={W_logo_wit} alt="W_logo" />
-        </Link> */}
             </div>
             <div id='navbar_link_container' className='flex flex-row ml-5 max-[460px]:ml-2 items-center text-[16px] sm:text-base max-[460px]:text-[11px]'>
                 <HashLink className='px-2 max-[460px]:px-1.5 sm:px-5 font-semibold' smooth to='/#skills'> skills </HashLink>

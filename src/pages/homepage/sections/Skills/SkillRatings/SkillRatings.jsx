@@ -8,18 +8,18 @@ export default function SkillRatings() {
                 <div className="w-[47%] max-[960px]:w-full max-[960px]:mb-7">
                     <h2 className="font-extrabold border-b-2 mb-2 pb-2 border-[#24CBFF]">Coding</h2>
                     <SkillRating skill={'HTML'} rating={5}></SkillRating>
-                    <SkillRating skill={'CSS'} rating={5}></SkillRating>
-                    <SkillRating skill={'Tailwind'} rating={5}></SkillRating>
-                    <SkillRating skill={'React'} rating={4}></SkillRating>
-                    <SkillRating skill={'Angular'} rating={3}></SkillRating>
+                    <SkillRating skill={'CSS'} rating={4}></SkillRating>
+                    <SkillRating skill={'Tailwind'} rating={4}></SkillRating>
+                    <SkillRating skill={'React'} rating={3}></SkillRating>
+                    <SkillRating skill={'Angular'} rating={4}></SkillRating>
                     <SkillRating skill={'Javascript'} rating={4}></SkillRating>
                     <SkillRating skill={'Typescript'} rating={4}></SkillRating>
                     <SkillRating skill={'C#'} rating={4}></SkillRating>
-                    <SkillRating skill={'Java'} rating={4}></SkillRating>
+                    <SkillRating skill={'Java'} rating={3}></SkillRating>
                     <SkillRating skill={'Kotlin'} rating={2}></SkillRating>
-                    <SkillRating skill={'Python'} rating={4}></SkillRating>
-                    <SkillRating skill={'SQL'} rating={5}></SkillRating>
-                    <SkillRating skill={'PL/SQL'} rating={5}></SkillRating>
+                    <SkillRating skill={'Python'} rating={3}></SkillRating>
+                    <SkillRating skill={'SQL'} rating={4}></SkillRating>
+                    <SkillRating skill={'PL/SQL'} rating={4}></SkillRating>
                 </div>
                 <div className="w-[47%] max-[960px]:w-full">
                     {/* languages and others */}
@@ -39,11 +39,9 @@ export default function SkillRatings() {
                         <SkillRating skill={'After Effects'} rating={3}></SkillRating>
                         <SkillRating skill={'Word'} rating={2}></SkillRating>
                         <SkillRating skill={'Excel'} rating={2}></SkillRating>
-                        <SkillRating skill={'Crypto/Stock trading'} rating={4}></SkillRating>
                     </div>
                 </div>
             </div>
         </div>
-
     );
 }

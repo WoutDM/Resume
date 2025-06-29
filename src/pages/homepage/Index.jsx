@@ -11,7 +11,6 @@ export default function Index() {
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                // entry.target.classList.toggle('appear', entry.isIntersecting);
                 if (entry.isIntersecting) {
                     entry.target.classList.add('appear');
                 }
@@ -21,7 +20,6 @@ export default function Index() {
         const hiddenElements = document.querySelectorAll('.disappear');
         hiddenElements.forEach(el => observer.observe(el));
 
-        // Optional cleanup
         return () => {
             hiddenElements.forEach(el => observer.unobserve(el));
         };

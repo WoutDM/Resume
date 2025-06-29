@@ -1,21 +1,21 @@
 body {
   background-color: rgb(24, 23, 23);
 }
-/*black*/
-/*#222831*/
-/*#2e3129*/
-/*rgb(24, 23, 23)*/
+
+#pageContent {
+  position: relative;
+  z-index: 2;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1 {
+  font-family: 'sf-pro', sans-serif;
+}
 
 @media (pointer: fine) {
   #gradientBackground {
     position: absolute;
     z-index: 1;
-  }
-
-  #pageContent {
-    position: relative;
-    z-index: 2;
-    font-family: 'sf-pro', sans-serif;
   }
 
   @keyframes rotate {
@@ -96,14 +96,6 @@ html, body {
   }
 }
 
-/* background image */
-/* #index {
-  background-image: url("./images/W_background_version.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-} */
-
 /*Contact field fill in animation*/
 .contactField {
   background-image: linear-gradient(#24CBFF, #24CBFF);
@@ -112,18 +104,11 @@ html, body {
   background-size: 100% 0%;
   transition: background-size .5s, color .5s;
 }
+
 .contactField:hover {
   color: black;
   background-size: 100% 100%;
 }
-
-/*Transitions while scrolling down*/
-/*.disappear {*/
-/*  opacity: 0;*/
-/*  transition: all 2s;*/
-/*  filter: blur(5px);*/
-/*  transform: translateX(-100%);*/
-/*}*/
 
 @media (prefers-reduced-motion: no-preference ) and (hover: hover) and (pointer: fine) {
   .disappear {
@@ -139,13 +124,6 @@ html, body {
   opacity: 1;
   filter: blur(0);
   transform: translateY(0) scaleY(1);
-}
-
-@font-face {
-  font-family: 'sf-pro';
-  src: url('../public/fonts/HelveticaNeueLTStd-Lt.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {

@@ -25,7 +25,6 @@ export default function SkillRating({skill, rating}) {
         }
     }
 
-
     return (
         <div className='flex flex-row justify-between items-center w-full'>
             <p>{skill}</p>

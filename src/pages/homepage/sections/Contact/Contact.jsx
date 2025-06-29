@@ -6,12 +6,8 @@ export default function Contact() {
 
   return (
       <div id="contact" className="flex flex-col items-center mt-40 max-[1235px]:mt-24 pb-10">
-          {/*<h1 className="m-auto font-bold text-3xl select-none mb-5">GET IN TOUCH<span*/}
-          {/*    className="text-[#D6F919]">.</span></h1>*/}
           <div className="flex flex-col items-center mb-6">
-              {/*<h1 className="m-auto font-bold text-3xl select-none mb-5">Oh hi! You made it to the end!</h1>*/}
               <h1 className="m-auto font-bold text-4xl select-none mb-5 max-[820px]:mb-0 max-[820px]:text-2xl max-[450px]:text-[17px]">You made it to the end, let’s chat! 😉
-                  {/*<span className="text-[#D6F919]">.</span>*/}
               </h1>
           </div>
           <div className="flex max-[820px]:flex-col items-center space-x-6 max-[820px]:space-x-0 max-[820px]:space-y-3 border-2 contactField border-[#24CBFF] rounded-lg p-2 px-3">
