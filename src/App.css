@@ -96,20 +96,6 @@ html, body {
   }
 }
 
-/*Contact field fill in animation*/
-.contactField {
-  background-image: linear-gradient(#24CBFF, #24CBFF);
-  background-position: 50% 100%;
-  background-repeat: no-repeat;
-  background-size: 100% 0%;
-  transition: background-size .5s, color .5s;
-}
-
-.contactField:hover {
-  color: black;
-  background-size: 100% 100%;
-}
-
 @media (prefers-reduced-motion: no-preference ) and (hover: hover) and (pointer: fine) {
   .disappear {
     opacity: 0;
