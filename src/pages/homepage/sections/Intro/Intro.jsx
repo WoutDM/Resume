@@ -5,7 +5,7 @@ import portretPic from "../../../../images/portret-picture.jpg";
 export default function Intro() {
 
     const [windowHeight, setWindowHeight] = useState(0);
-    const [isFinePointer, setIsFinePointer] = useState(true);
+    const [isFinePointer, setIsFinePointer] = useState(false);
 
     useEffect(() => {
 
