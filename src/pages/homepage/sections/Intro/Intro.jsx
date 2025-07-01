@@ -15,15 +15,18 @@ export default function Intro() {
 
             setWindowHeight(document.documentElement.clientHeight);
 
-            const handleResize = () => {
-                setWindowHeight(document.documentElement.clientHeight);
-            };
+            if (isFinePointer) {
 
-            window.addEventListener('resize', handleResize);
+                const handleResize = () => {
+                    setWindowHeight(document.documentElement.clientHeight);
+                };
 
-            return () => window.removeEventListener('resize', handleResize);
+                window.addEventListener('resize', handleResize);
+
+                return () => window.removeEventListener('resize', handleResize);
+            }
         }
-    }, []);
+    }, [isFinePointer]);
 
   return (
       <div className='flex flex-col items-center'>

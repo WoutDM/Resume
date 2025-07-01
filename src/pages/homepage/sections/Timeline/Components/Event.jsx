@@ -9,7 +9,7 @@ export default function Event({event}) {
             <div id='periodTimeline' className="flex flex-col items-center w-12 mr-5">
                 <div className="rounded-full border-2 border-[#24CBFF] bg-[#24CBFF] h-6 w-6"/>
                 {
-                    event.fromDate === 'September 2020' ?
+                    event.fromDate === 'September 2014' ?
                         <div className="w-0.5 h-[80%] bg-gradient-to-b from-[#24CBFF]"/>
                     :
                         <div className="w-0.5 h-full bg-[#24CBFF]"/>
@@ -20,7 +20,7 @@ export default function Event({event}) {
                 <h2 id='title' className="font-bold">{event.title}</h2>
                 <p id='location' className="text-xs text-gray-400 mb-2">{event.location}</p>
                 {
-                    event.fromDate === 'September 2020' ?
+                    event.fromDate === 'September 2014' ?
                         <p id='description' className="mb-14">{event.description}</p>
                     :
                         <p id='description' className="mb-10">{event.description}</p>
