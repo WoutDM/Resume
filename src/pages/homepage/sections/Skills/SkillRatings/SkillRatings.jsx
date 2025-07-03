@@ -30,7 +30,7 @@ export default function SkillRatings() {
                         <SkillRating skill={'French'} rating={3}></SkillRating>
                         <SkillRating skill={'German'} rating={2}></SkillRating>
                         <SkillRating skill={'Spanish'} rating={1}></SkillRating>
-                        <SkillRating skill={'Italian'} rating={'Duolingo'}></SkillRating>
+                        <SkillRating skill={'Italian'} rating={1}></SkillRating>
                     </div>
                     <div>
                         <h2 className="font-extrabold mt-6  border-b-2 mb-2 pb-2 border-[#24CBFF]">Others</h2>
